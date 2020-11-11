@@ -32,16 +32,6 @@ class Matrix {
 			return 0;
 		}
 
-		void display(ofstream &t){
-			t << fixed;
-			for(int i = 0; i < numrows(); ++i) {
-				t << "|";
-				for(int j = 0; j < numcols(); ++j) {
-					t << " " << setw(6) << array[i][j] << " ";
-				}
-				t << "|" << endl;
-			}
-		}
 
 		const vector<Object>& operator[](int row) const {
 			if (row < 0 || row >= array.size())
@@ -86,6 +76,9 @@ class Matrix {
 		void transpose();
 
 		void resize(int rows, int cols);
+
+		void printToFile(string fileName);
+		
 };
 
 #include "matrix_class.tpp"

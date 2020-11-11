@@ -96,3 +96,20 @@ void Matrix<Object>::resize(int rows, int cols){
 	}
 }
 
+
+//TODO Jeg gad godt få den til at printe matricens navn også
+template <typename Object>
+void Matrix<Object>::printToFile(string fileName){
+	ofstream t;
+	t.open(fileName);
+
+	t << fixed;
+	for(int i = 0; i < numrows(); ++i) {
+		t << "|";
+		for(int j = 0; j < numcols(); ++j) {
+			t << " " << setw(6) << array[i][j] << " ";
+		}
+		t << "|" << endl;
+	}
+	t.close();
+}
