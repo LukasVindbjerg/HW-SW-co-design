@@ -1,0 +1,3 @@
+C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/CMakeFiles/tests.dir
+C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/CMakeFiles/ZERO_CHECK.dir

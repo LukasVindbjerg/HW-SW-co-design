@@ -32,6 +32,17 @@ class Matrix {
 			return 0;
 		}
 
+		void display(ofstream &t){
+			t << fixed;
+			for(int i = 0; i < numrows(); ++i) {
+				t << "|";
+				for(int j = 0; j < numcols(); ++j) {
+					t << " " << setw(6) << array[i][j] << " ";
+				}
+				t << "|" << endl;
+			}
+		}
+
 		const vector<Object>& operator[](int row) const {
 			if (row < 0 || row >= array.size())
 				throw out_of_range("Invalid row.");

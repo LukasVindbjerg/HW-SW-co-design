@@ -1,0 +1,10 @@
+^C:\USERS\DANIEL\DOCUMENTS\1. UNI\3. SEMESTER\HW-SW CO-DESIGN\GITHUB\HW-SW-CO-DESIGN\MATRIX MULT\BUILD\CMAKEFILES\9F9AC513BF0D13FF0FA475E8B1A16CDC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult" "-BC:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/assignment_8.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

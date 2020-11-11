@@ -40,8 +40,8 @@ int main() {
 	//TODO Make this as a function
 	ofstream myFile;
     myFile.open("out.dat");
-	myFile << mult;
-
+	mult.display(myFile);
+/*
     myFile << "mult=\n";
 
 	for (int i = 0; i < ROWS; i++)
@@ -55,7 +55,7 @@ int main() {
 	}
 	
 		myFile.close();
-
+*/
 	return 0;
 }
 
