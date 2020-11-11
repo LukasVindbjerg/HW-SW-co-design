@@ -54,31 +54,7 @@ ostream& operator<<(ostream& t, Matrix<Object> mat) {
 	}
 	return t;
 }
-/*
-template <typename Object>
-void Matrix<Object>::transpose(){
-	Matrix<Object> *trans = new Matrix<Object>(numcols(), numrows());
-	int cur_rows = numrows();
-	int cur_cols = numcols();
 
-	for (int i = 0; i < numrows(); ++i) {
-    	for (int j = 0; j < numcols(); ++j) {
-       	(*trans)[j][i] = array[i][j];
-		}
-    }
-
-	array.resize(cur_cols);
-	for(auto& r : array) {
-		r.resize(cur_rows);
-	}
-
-	for (int i = 0; i < numrows(); ++i) {
-    	for (int j = 0; j < numcols(); ++j) {
-       	array[i][j] = (*trans)[i][j];
-		}
-    }
-	delete trans;
-}*/
 
 /* for this i will use the resize function from exercise (4), since i believe it improves readability */
 template <typename Object>

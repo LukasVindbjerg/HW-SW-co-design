@@ -58,14 +58,13 @@ class Matrix {
 		}
 
 		ofstream& operator<<(ofstream& t) {
-			cout << fixed;
-			cout.precision(2);
+			t << fixed;
 			for(int i = 0; i < numrows(); ++i) {
-				cout << "|";
+				t << "|";
 				for(int j = 0; j < numcols(); ++j) {
-					cout << " " << setw(6) << array[i][j] << " ";
+					t << " " << setw(6) << array[i][j] << " ";
 				}
-				cout << "|" << endl;
+				t << "|" << endl;
 			}
 			return t;
 		}
