@@ -57,6 +57,20 @@ class Matrix {
 			return t;
 		}
 
+		ofstream& operator<<(ofstream& t) {
+			cout << fixed;
+			cout.precision(2);
+			for(int i = 0; i < numrows(); ++i) {
+				cout << "|";
+				for(int j = 0; j < numcols(); ++j) {
+					cout << " " << setw(6) << array[i][j] << " ";
+				}
+				cout << "|" << endl;
+			}
+			return t;
+		}
+
+
 		void add(Matrix& mat);
 
 		void transpose();
