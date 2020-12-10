@@ -3,6 +3,8 @@
         "*.tpp": "cpp",
         "stdexcept": "cpp",
         "iosfwd": "cpp",
-        "vector": "cpp"
-    }
+        "vector": "cpp",
+        "thread": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "go2sh.cmake-integration"
 }
