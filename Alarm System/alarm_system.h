@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <thread>
-
 #include "camera.h"
 #include "sensor.h"
 
@@ -12,7 +11,6 @@ using namespace std;
 enum state {Inactive, Active, Alarmed};
 
 class AlarmSystem{
-
   private:
     state alarmState; 
     Sensor S1;
@@ -33,7 +31,6 @@ class AlarmSystem{
         return false;
     }
 
-
     
     //TODO: Make the function work properly
     bool validPin(int P){
@@ -42,8 +39,7 @@ class AlarmSystem{
     }
 
 
-  public:
-  
+  public:  
     AlarmSystem() : alarmState(Inactive) {}
     bool activate(int pin){
         if(validPin(pin))
@@ -64,8 +60,4 @@ class AlarmSystem{
         }
     }
 
-
-
-
 };
-

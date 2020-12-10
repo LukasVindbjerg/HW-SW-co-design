@@ -10,8 +10,7 @@ using namespace std;
 #define ROWS		4
 #define COLS		4
 
-class Camera
-{
+class Camera{
 private:
     int array[ROWS][COLS];
     friend class AlarmSystem;
