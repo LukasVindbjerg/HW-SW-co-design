@@ -12,14 +12,23 @@ class Sensor
 {
 private:
     friend class AlarmSystem;
+    bool myReading;
+    int turnoff;
 
 
 
 public:
-    Sensor(){sensorReadData();}
+    Sensor() : turnoff(0) {/*sensorReadData();*/}
 
-    bool sensorReadData(){
-        // sleep(10);
-        return rand()%2;
+    void sensorReadData(){
+        srand(time(0));
+        while(turnoff == 0){
+            // sleep(10);
+        myReading = rand()%2;
+        }
+    }
+
+    bool reading(){
+        return myReading;
     }
 };

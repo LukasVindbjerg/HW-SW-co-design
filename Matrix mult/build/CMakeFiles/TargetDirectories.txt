@@ -1,3 +1,0 @@
-C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/CMakeFiles/tests.dir
-C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/CMakeFiles/ALL_BUILD.dir
-C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/CMakeFiles/ZERO_CHECK.dir
