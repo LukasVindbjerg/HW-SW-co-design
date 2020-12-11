@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build"
+			"value" : "c:/Programming/DJLM/HW-SW-co-design/Matrix mult/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -463,7 +463,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult"
+			"value" : "C:/Programming/DJLM/HW-SW-co-design/Matrix mult"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -987,7 +987,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build"
+			"value" : "C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build"
 		},
 		{
 			"name" : "assignment_8_SOURCE_DIR",
@@ -999,7 +999,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult"
+			"value" : "C:/Programming/DJLM/HW-SW-co-design/Matrix mult"
 		}
 	],
 	"kind" : "cache",

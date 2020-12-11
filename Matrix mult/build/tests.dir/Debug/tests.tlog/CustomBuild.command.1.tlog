@@ -1,6 +1,6 @@
-^C:\USERS\DANIEL\DOCUMENTS\1. UNI\3. SEMESTER\HW-SW CO-DESIGN\GITHUB\HW-SW-CO-DESIGN\MATRIX MULT\CMAKELISTS.TXT
+^C:\PROGRAMMING\DJLM\HW-SW-CO-DESIGN\MATRIX MULT\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult" "-BC:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build" --check-stamp-file "C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Programming/DJLM/HW-SW-co-design/Matrix mult" "-BC:/Programming/DJLM/HW-SW-co-design/Matrix mult/build" --check-stamp-file "C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

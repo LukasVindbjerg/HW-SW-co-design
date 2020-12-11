@@ -1,4 +1,5 @@
-The system is: Windows - 10.0.19041 - AMD64
+The system is: Windows - 10.0.18363 - AMD64
+The system is: Windows - 10.0.18363 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler:  
 Build flags: 
@@ -9,8 +10,8 @@ The output was:
 Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 11-11-2020 16:26:11.
-Project "C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Build started 18-11-2020 14:41:08.
+Project "C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdC.tlog\".
@@ -21,7 +22,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdC\.\CompilerIdC.exe
+  CompilerIdC.vcxproj -> C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -29,20 +30,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:04.60
+Time Elapsed 00:00:04.07
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -54,8 +55,8 @@ The output was:
 Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 11-11-2020 16:26:17.
-Project "C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Build started 18-11-2020 14:41:13.
+Project "C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdCXX.tlog\".
@@ -66,7 +67,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdCXX\.\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -74,74 +75,74 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\3.17.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:04.26
+Time Elapsed 00:00:01.96
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a5977.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2435d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5977.dir\Debug\\" /Fd"cmTC_a5977.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29112 for x86
   testCCompiler.c
-  cmTC_a5977.vcxproj -> C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\Debug\cmTC_a5977.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2435d.dir\Debug\\" /Fd"cmTC_2435d.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cmTC_2435d.vcxproj -> C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\Debug\cmTC_2435d.exe
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_aa767.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_180a7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29112 for x86
   CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa767.dir\Debug\\" /Fd"cmTC_aa767.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
-  cmTC_aa767.vcxproj -> C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\Debug\cmTC_aa767.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_180a7.dir\Debug\\" /Fd"cmTC_180a7.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+  cmTC_180a7.vcxproj -> C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\Debug\cmTC_180a7.exe
 
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_55e55.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_208b1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29112 for x86
   testCXXCompiler.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55e55.dir\Debug\\" /Fd"cmTC_55e55.dir\Debug\vc142.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
-  cmTC_55e55.vcxproj -> C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\Debug\cmTC_55e55.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_208b1.dir\Debug\\" /Fd"cmTC_208b1.dir\Debug\vc142.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cmTC_208b1.vcxproj -> C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\Debug\cmTC_208b1.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cb8f7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4d661.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29112 for x86
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cb8f7.dir\Debug\\" /Fd"cmTC_cb8f7.dir\Debug\vc142.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_cb8f7.vcxproj -> C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\Debug\cmTC_cb8f7.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4d661.dir\Debug\\" /Fd"cmTC_4d661.dir\Debug\vc142.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_4d661.vcxproj -> C:\Programming\DJLM\HW-SW-co-design\Matrix mult\build\CMakeFiles\CMakeTmp\Debug\cmTC_4d661.exe
 
 
 

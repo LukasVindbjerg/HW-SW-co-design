@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/tests.exe"
+			"path" : "Release/tests.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/tests.pdb"
+			"path" : "Release/tests.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  "
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  "
 				}
 			],
 			"language" : "CXX",
@@ -60,11 +60,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:X86 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{
@@ -96,7 +96,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test_matrix.cpp",
+			"path" : "matrix.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

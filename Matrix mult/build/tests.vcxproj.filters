@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\test_matrix.cpp">
+    <ClCompile Include="C:\Programming\DJLM\HW-SW-co-design\Matrix mult\matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Matrix mult\CMakeLists.txt" />
+    <CustomBuild Include="C:\Programming\DJLM\HW-SW-co-design\Matrix mult\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D240D45D-DA19-3B96-B4A7-DDF3CE2A9105}</UniqueIdentifier>
+      <UniqueIdentifier>{2E403F95-E8B5-36F9-BFD6-1F0325860977}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult
+# Install script for directory: C:/Programming/DJLM/HW-SW-co-design/Matrix mult
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Matrix mult/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Programming/DJLM/HW-SW-co-design/Matrix mult/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
