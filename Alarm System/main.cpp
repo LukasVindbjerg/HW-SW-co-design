@@ -4,19 +4,11 @@ using namespace std;
 
 int main(){
 
-    AlarmSystem test;
+    AlarmSystem AS;
 
-    bool test1 = test.activate(123);
-    bool test2 = test.activate(123);
-    bool test3 = test.activate(123);
-    bool test4 = test.activate(123);
-    
+    AS.activate();
 
-    cout << test1 << endl;
-    cout << test2 << endl;
-    cout << test3 << endl;
-    cout << test4 << endl; 
-    
+    cout << "do we reach here?" << endl;
     return 0;
 }
 
