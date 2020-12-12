@@ -118,12 +118,12 @@ class AlarmSystem{
     }
 
    void deactive(){
-        char option;
-        cout << "Do you want to start the system? (Y/n) " << endl;
-        cin >> option;
-        if (option == 'Y')
-        activate();
-        else
+        // char option;
+        // cout << "Do you want to start the system? (Y/n) " << endl;
+        // cin >> option;
+        // if (option == 'Y')
+        // activate();
+        // else
         exit(0);
    }
 
@@ -132,6 +132,7 @@ class AlarmSystem{
 
         /*wait 10s for input thread to finish or continue*/
         WaitForSingleObject(input.native_handle(), 10000);
+        input.join();
 
         switch(alarmState){
             case Active:
