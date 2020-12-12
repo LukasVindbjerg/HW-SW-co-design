@@ -8,7 +8,7 @@ int main(){
 
     AS.activate();
 
-    cout << "do we reach here?" << endl;
+    cout << "Program finished." << endl;
     return 0;
 }
 

@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <windows.h>
+#include <Windows.h>
 
 using namespace std;
 
@@ -22,11 +22,12 @@ public:
 
     void cameraReadData(){
         srand(time(0));
-        // sleep(20);
+        Sleep(100);
         while(turnoff == 0){
             for(int i = 0; i < ROWS; i++){
                 for(int j = 0; j < COLS; j++){
                     array[i][j] = rand() % 10;
+                    // cout << array[i][j] << " ";
                 }
             }
         }

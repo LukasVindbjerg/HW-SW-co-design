@@ -5,7 +5,6 @@
 #include <thread>
 #include <iostream>
 #include <Windows.h>
-#include <chrono>
 #include <time.h> 
 #include "camera.h"
 #include "sensor.h"
@@ -53,18 +52,15 @@ class AlarmSystem{
         thread C1_thread(&Camera::cameraReadData, ref(C1));
 
         
-        //sleep(100); //To get initial values.
+        Sleep(1000); //To get initial values.
 
         while(alarmState == Active){
 
             if(intrusion_check()){
                 alarmState = Alarmed;
                 break;
-            //TODO: break loop with input PIN
             }
         }
-
-        //TODO: Find something better than detach, as it probably terminate quit the thread...
         
         S1.turnoff = 1; //Turnoff to 1, so we make sure
         S2.turnoff = 1; //the  while loops will exit.
@@ -74,16 +70,11 @@ class AlarmSystem{
         S2_thread.join();
         C1_thread.join();
 
-        
-
-        cout << "System alarmed!" << endl; 
         return systemAlarmed();
     }
     //________________________________________________________________________________________
-        
-        
+           
         else{
-            cout << "GET HERE HUH?!?!?" << endl;
             return;
         }
     }
@@ -93,7 +84,7 @@ class AlarmSystem{
         cin >> i;
 
         while(cin.fail()){
-            cout << "Entered PIN is not a number" << endl;
+            cout << "Entered PIN is not a number. Try again: " << endl;
             cin.clear();
             cin.ignore(256,'\n');
             cin >> i;
@@ -102,36 +93,26 @@ class AlarmSystem{
         cout << validPin(i) << endl;
         if(validPin(i)==true){
             char option;
-            cout << "do you want to turn off the system? (Y/n) ";
+            cout << "Do you want to turn off the system? (Y/n) ";
             cin >> option;
-            if(option == 'Y')
+            if(option == 'Y'){
                 alarmState = Inactive;
-            else
+            }else{
                 alarmState = Active;
-            
+            }
             return;
-        
         }   
         else{
             userPIN();
         }
     }
 
-   void deactive(){
-        // char option;
-        // cout << "Do you want to start the system? (Y/n) " << endl;
-        // cin >> option;
-        // if (option == 'Y')
-        // activate();
-        // else
-        exit(0);
-   }
-
     void systemAlarmed(){
+        cout << "Intrusion detected system alarmed! You have 10s to enter PIN to deactivate: " << endl; 
         thread input(&AlarmSystem::userPIN, this);
 
         /*wait 10s for input thread to finish or continue*/
-        WaitForSingleObject(input.native_handle(), 10000);
+        //WaitForSingleObject(input.native_handle(), 10000);
         input.join();
 
         switch(alarmState){
@@ -139,7 +120,7 @@ class AlarmSystem{
             return active();
 
             case Inactive:
-            return deactive();
+            return;
 
             case Alarmed:
             return active();
@@ -167,17 +148,24 @@ class AlarmSystem{
 
     //For user control outside the system
     void activate(){
+        cout << "Enter PIN: ";
         int PIN;
         cin >> PIN;
 
         while(cin.fail()){
-            cout << "Entered PIN is not a number" << endl;
+            cout << "Entered PIN is not a number. Try again: " << endl;
             cin.clear();
             cin.ignore(256,'\n');
             cin >> PIN;
         }
-        if(validPin(PIN))
+        if(validPin(PIN)){
             alarmState = Active;
-            active();   
+            cout << "Access granted. " << endl;
+            active();
+        }       
+        else{
+            cout << "Wrong PIN."<<endl;
+            return;
+        }
     }
 };
