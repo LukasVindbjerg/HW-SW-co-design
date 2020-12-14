@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <Windows.h>
-#include <thread>
+//#include <thread>
 
 using namespace std;
 
@@ -13,19 +13,17 @@ class Sensor
 private:
     friend class AlarmSystem;
     bool myReading;
-    int turnoff;
+
 
 
 public:
-    Sensor() : turnoff(0) {/*sensorReadData();*/}
+    Sensor() {myReading = 0;}
 
     void sensorReadData(){
         srand(time(0));
-        while(turnoff == 0){
         Sleep(50);
         myReading = rand()%2;
         // cout << myReading << " ";
-        }
     }
 
     bool reading(){

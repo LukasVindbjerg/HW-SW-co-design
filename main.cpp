@@ -6,6 +6,7 @@ int main(){
 
     AlarmSystem AS;
 
+    //TODO: switch statement for control flow
     AS.activate();
 
     cout << "Program finished." << endl;
