@@ -1,5 +1,6 @@
 #include "alarm_system.h"
 
+
 bool AlarmSystem::intrusion_check(){
     if(S1.myReading == 0 && S2.myReading == 0){
         return false;
@@ -17,7 +18,6 @@ void AlarmSystem::control_loop(){
         systemAlarmed();
     }
     return;
-
 }
 
 
@@ -35,7 +35,7 @@ void AlarmSystem::systemAlarmed(){
     alarmState = Alarmed;
     cout << "Intrusion detected system alarmed! You have 10s to enter PIN to reset: " << endl; 
 
-    userPIN();
+    reset();
 
     return;
     // switch(alarmState){
@@ -51,33 +51,40 @@ void AlarmSystem::systemAlarmed(){
 }
 
 
-void AlarmSystem::userPIN(){
+void AlarmSystem::reset(){
     cout << "Enter PIN: ";
-    int i;
-    cin >> i;
+//     int PIN;
+//     cin >> PIN;
 
 //    while(cin.fail()){
 //        cout << "Entered PIN is not a number. Try again: " << endl;
 //        cin.clear();
 //        cin.ignore(256,'\n');
-//        cin >> i;
+//        cin >> PIN;
 //    }
+//     int PIN;
+//     while(!validPin(PIN)){
+//     cout << "Wrong PIN try again."<<endl;
+//     cout << "Enter PIN: ";
+//     cin >> PIN;    
+// }
+        validPin();
 
-    if(validPin(i)){
-        int option;
+        //int option;
         cout << "Do you want to turn off the system? " << endl << "Type 1 for: Yes" <<endl << "Type 0 for: No"<<endl;
-        cin >> option;
+        //cin >> option;
 
-//        while(cin.fail()){
-//            cout << "Entered number is not an option. Try again: " << endl;
-//            cin.clear();
-//            cin.ignore(256,'\n');
-//            cin >> option;
-//    }
-        if(option == 1){
+        // while(cin.fail()){
+        //    cout << "Entered number is not an option. Try again: " << endl;
+        //    cin.clear();
+        //    cin.ignore(256,'\n');
+        //    cin >> option;
+        // }
+        bool i = validPin();
+        if(i == 1){
             cout << "Shutting down."<<endl;
             alarmState = Inactive;
-        }else if(option == 0){
+        }else if(i == 0){
             cout << "Alarm reset."<<endl;
             alarmState = Active;
         }
@@ -86,20 +93,16 @@ void AlarmSystem::userPIN(){
             alarmState = Active;
         }
         return;
-    }   
-    else{
-        cout << "Wrong PIN try again" <<endl;
-        userPIN();
-    }
 }
 
 
-bool AlarmSystem::validPin(int P){
-    srand(time(0));
-
+bool AlarmSystem::validPin(/*int P*/){
+    // srand(time(0));
+	hls::stream<int> my_stream;
     //Chance for false is 1/p
-    int p = 2;
-    return (rand() % p);
+    // int p = 2;
+	int P = my_stream.read();
+    return P;//(rand() % p);
 }
 
 void AlarmSystem::deactivate(){
@@ -108,26 +111,23 @@ void AlarmSystem::deactivate(){
 
 void AlarmSystem::activate(){
     cout << "Enter PIN: ";
-    int PIN;
-    //cin >> PIN;
-    scanf("%d", &PIN);
+    validPin();
+    // int PIN;
+    
+    // cin >> PIN;
 
-    /*
-    while(cin.fail()){
-        cout << "Entered PIN is not a number. Try again: " << endl;
-        cin.clear();
-        cin.ignore(256,'\n');
-        cin >> PIN;
-    }
-    */
-
-    if(validPin(PIN)){
+    // while(cin.fail()){
+    //     cout << "Entered PIN is not a number. Try again: " << endl;
+    //     cin.clear();
+    //     cin.ignore(256,'\n');
+    //     cin >> PIN;
+    // }
+    // while(!validPin(PIN)){
+    //     cout << "Wrong PIN try again."<<endl;
+    //     cout << "Enter PIN: ";
+    //     cin >> PIN;    
+    // }
         alarmState = Active;
         cout << "Access granted. " << endl;
         control_loop();
-    }       
-    else{
-        cout << "Wrong PIN try again."<<endl;
-        return activate();
-    }
 }

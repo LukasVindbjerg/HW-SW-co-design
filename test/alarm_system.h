@@ -1,15 +1,12 @@
-#ifndef _ALARM_SYSTEM_H_
-#define _ALARM_SYSTEM_H_
-
-
-//#pragma once
+#pragma once
 
 #include <stdio.h>
 #include <stdlib.h>
-//#include <thread>
+// #include <thread>
 #include <iostream>
-#include <Windows.h>
-#include <time.h>
+#include <hls_stream.h>
+// #include <Windows.h>
+// #include <time.h>
 #include "camera.h"
 #include "sensor.h"
 
@@ -29,11 +26,11 @@ class AlarmSystem{
 
     void active();
     
-    void userPIN();
+    void reset();
 
     void systemAlarmed();
 
-    bool validPin(int P);
+    bool validPin();
 
     void control_loop();
 
@@ -46,7 +43,3 @@ class AlarmSystem{
     //For user control outside the system
     void activate();
 };
-
-#include "alarm_system.cpp"
-
-#endif

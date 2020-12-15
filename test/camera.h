@@ -1,12 +1,9 @@
-#ifndef _CAMERA_H_
-#define _CAMERA_H_
-
-//#pragma once
+#pragma once
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-#include <Windows.h>
+// #include <time.h>
+// #include <Windows.h>
 
 
 #define ROWS		4
@@ -23,11 +20,5 @@ private:
 
 public:
     Camera(){/*cameraReadData();*/}
-
-
-
 };
 
-#include "camera.cpp"
-
-#endif
