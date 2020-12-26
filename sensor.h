@@ -2,11 +2,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-#include <Windows.h>
-//#include <thread>
-
-using namespace std;
 
 class Sensor
 {
@@ -19,14 +14,7 @@ private:
 public:
     Sensor() {myReading = 0;}
 
-    void sensorReadData(){
-        srand(time(0));
-        Sleep(50);
-        myReading = rand()%2;
-        // cout << myReading << " ";
-    }
+    void sensorReadData();
 
-    bool reading(){
-        return myReading;
-    }
+    bool reading();
 };

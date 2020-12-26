@@ -2,10 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-//#include <thread>
 #include <iostream>
-#include <Windows.h>
-#include <time.h>
 #include "camera.h"
 #include "sensor.h"
 
@@ -20,19 +17,22 @@ class AlarmSystem{
     Sensor S1;
     Sensor S2;
     Camera C1;
+    int pin;
 
     bool intrusion_check();
 
     void active();
     
-    void userPIN();
+    void reset();
 
     void systemAlarmed();
 
-    bool validPin(int P);
+    bool validPin();
+
+    void control_loop();
 
   public:
-    AlarmSystem() : alarmState(Inactive) {}
+    AlarmSystem() : alarmState(Inactive), pin(0) {}
 
     //For user control outside the system
     void deactivate();
