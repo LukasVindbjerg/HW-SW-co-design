@@ -1,0 +1,4 @@
+C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Final product/build/CMakeFiles/tests.dir
+C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Final product/build/CMakeFiles/cpp.dir
+C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Final product/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Daniel/Documents/1. Uni/3. Semester/HW-SW co-design/Github/HW-SW-co-design/Final product/build/CMakeFiles/ZERO_CHECK.dir

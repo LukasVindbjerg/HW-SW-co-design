@@ -1,0 +1,2 @@
+C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Final product\build\Debug\cpp.pdb
+C:\Users\Daniel\Documents\1. Uni\3. Semester\HW-SW co-design\Github\HW-SW-co-design\Final product\build\cpp.dir\Debug\cpp.pdb

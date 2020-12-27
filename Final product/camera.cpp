@@ -11,6 +11,8 @@ void Camera::cameraReadData(){
 
 
 bool Camera::sum(){
+    for(int k = 0; k < 200000000; k++);
+
     sum_label4:for(int i = 0; i < 4; i++){
         sum_label5:for(int j = 0; j < 4; j++){
 
@@ -20,5 +22,4 @@ bool Camera::sum(){
         }
     }
     return false;
-
 }
